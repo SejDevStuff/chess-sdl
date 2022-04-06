@@ -246,6 +246,16 @@ void calculateMoves(int piece, int x, int y, bool noReset) {
             piecesClass.Knight(piece, x, y, moves, chessPieces);
             break;
         }
+
+        case 6: { // black rook
+            piecesClass.Rook(piece, x, y, moves, chessPieces);
+            break;
+        }
+
+        case 12: { // white rook
+            piecesClass.Rook(piece, x, y, moves, chessPieces);
+            break;
+        }
     }
     return;
 }
