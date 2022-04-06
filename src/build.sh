@@ -1,0 +1,1 @@
+g++ *.cpp -Iinc -lSDL2_image -lSDL2 -lSDL2_ttf -o ../main --std=c++17
